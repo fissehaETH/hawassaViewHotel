@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up Page</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="heading.css">
+</head>
+<body>
+        <header>
+                <div class="logos"><a href="home.html" class="logos"><img src="photos/hawassaviewlogo.png" alt="logos" id="imglogo">Hawassa view Hotel</a></div>
+                <nav>
+                  <a href="home.html" id="homeid">Home</a>
+                  <a href="rooms.html" id="roomid">Room Booking</a>
+                  <a href="dinning.html" id="dineid">Dining</a>
+                  <a href="amenities.html" id="amentid">Amenities</a>
+                  <a href="developers.html" id="developid">Developers</a>
+                  <a href="index.php" id="loginid">login</a>
+                  <a href="signup.html" id="signupid">sign up</a>
+                 <a href="#contactss" id="contaid">Contact</a>
+                </nav>
+              </header>
+                    <div class="container vh-100">
+                            <div class="row justify-content-center h-100">
+                                <div class="card w-25 my-auto shadow">
+                                    <div class="card-header text-center bg-primary text-white">
+                                        <h2>Signup</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <form action="signup.php" method="POST">
+                                                <div class="form-group">
+                                                        <label for="first-name">First Name</label>
+                                                        <input type="text" id="firstname" class="form-control" name="first_name"  required/>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label for="last-name">Last Name</label>
+                                                            <input type="text" id="lastname" class="form-control" name="last_name" required/>
+                                                        </div>
+                                                        <div class="form-group">
+                                                                <label for="email">Email</label>
+                                                                <input type="email" id="email" class="form-control" name="emailsignup" />
+                                                            </div>
+                                                    <div class="form-group">
+                                                        <label for="password">Phone Number</label>
+                                                        <input type="tel" id="phonenumber" class="form-control" name="phonenumbersignup" />
+                                                    </div>
+                                            
+                                            <div class="form-group">
+                                                <label for="password">Password</label>
+                                                <input type="password" id="password" class="form-control" name="passwordsignup" />
+                                            </div>
+                                            <input type="submit" class="btn btn-primary w-100" value="signup" name="submitsignup">
+                                        </form>
+                                    </div>
+                                    <div class="card-footer text-right">
+                                        <small>&copy;Hawassa View Hotel</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+        
+
+              <footer>
+                    <div class="contact">
+                        <a id="contactss"></a>
+                      <h4>Contact Us:</h4>
+                      <p>Hawassa,Atote warka beside Hayole Secondary School 12345</p>
+                      <p>Phone: (251) 926-095169</p>
+                      <p>Email: ftsadiku@gmail.com</p>
+                      <p>2023 &copy; copyright protected,Hawassa View Hotels Group</p>
+                    </div>
+                    <div class="social">
+                      <a href="https://www.facebook.com/hawassaviewhotel" target="_blank">Facebook</a>
+                      <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+                      <a href="https://www.instagram.com/fisseha_tsadiku/" target="_blank">Instagram</a>
+                    </div>
+                  </footer>
+                  <script type="text/javascript" src="heading.js">
+        
+                  </script>
+	
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Rooms
+
+    </title>
+    <link rel="stylesheet" type="text/css" href="rooms.css">
+    <link rel="stylesheet" type="text/css" href="heading.css">
+</head>
+<body>
+        <header>
+                <div class="logos"><a href="home.html" class="logos"><img src="photos/hawassaviewlogo.png" alt="logos" id="imglogo">Hawassa view Hotel</a></div>
+                <nav>
+                  <a href="home.html" id="homeid">Home</a>
+                  <a href="rooms.html" id="roomid">Room Booking</a>
+                  <a href="dinning.html" id="dineid">Dining</a>
+                  <a href="amenities.html" id="amentid">Amenities</a>
+                  <a href="developers.html" id="developid">Developers</a>
+                  <a href="index.php" id="loginid">login</a>
+                  <a href="signup.html" id="signupid">sign up</a>
+                  <a href="#contactss" id="contaid">Contact</a>
+                </nav>
+              </header>
+    <main>
+        <form name="room-form" method="POST" action="booking.php">
+          <h2>Book a Room</h2>
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" id="phonenum" name="phone-number" required/>
+            </div>
+          <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                </div>
+              </div>
+          <div class="form-group">
+            <label for="check-in">Check-In Date</label>
+            <input type="date" id="check-in" name="check-in" required>
+          </div>
+          <div class="form-group">
+            <label for="check-out">Check-Out Date</label>
+            <input type="date" id="check-out" name="check-out" required>
+          </div>
+          <div class="form-group">
+            <label for="room-type">Room Type</label>
+            <select id="room-type" name="room-type">
+              <option value="standard">Standard</option>
+              <option value="deluxe">Deluxe</option>
+              <option value="suite">Suite</option>
+            </select>
+          </div>
+          <input type="submit" value="Book Now" name="book-now">
+        </form>
+      </main>
+      <footer>
+            <div class="contact">
+                <a id="contactss"></a>
+              <h4>Contact Us:</h4>
+              <p>Hawassa,Atote warka beside Hayole Secondary School 12345</p>
+              <p>Phone: (251) 926-095169</p>
+              <p>Email: ftsadiku@gmail.com</p>
+              <p>2023 &copy; copyright protected,Hawassa View Hotels Group</p>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/hawassaviewhotel" target="_blank">Facebook</a>
+              <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+              <a href="https://www.instagram.com/fisseha_tsadiku/" target="_blank">Instagram</a>
+            </div>
+          </footer>
+
+          <script type="text/javascript" src="heading.js">
+        
+          </script>
+  
+</body>
+</html>

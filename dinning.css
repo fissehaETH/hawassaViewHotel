@@ -1,0 +1,46 @@
+.bodydine{
+  margin: 0px;
+  background-image: url("photos/food3.jpg");
+  color: #fff;
+}
+#dining {
+  
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+#dining h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #333;
+}
+
+#dining p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#dining ul {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#dining li {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+  text-shadow: 1px 1px #333;
+}
+#divpara{
+  display: inline;
+}
+.divparagraphleft{
+  width: 33%;
+  flex: left;
+  height: 250px;
+}
+
